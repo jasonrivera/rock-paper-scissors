@@ -7,7 +7,33 @@
     <title>Rock - Paper - Scissors</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="scoreboard">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="result-message">
+        <h2>Paper covers rock. You win!</h2>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <span>R</span>
+        </div>
+        <div class="choice" id="paper" >
+            <span>P</span>
+        </div>
+        <div class="choice" id="scissors" >
+            <span>S</span>
+        </div>
+    </div>
+
+    <p class="game-message">Make your move.</p>
     <script src="app.js"></script>
 </body>
 </html>
